@@ -51,3 +51,11 @@ Verify that Django is installed correctly and check its version:
 ```bash
 django-admin --version
 ```
+### The development server
+Let’s verify your Django project works. Change into the *basic-poll* directory, if you haven’t already, and run the following commands:
+```bash
+cd basic-poll
+```
+```bash
+python3 manage.py runserver
+```
