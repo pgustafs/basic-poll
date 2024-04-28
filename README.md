@@ -31,5 +31,6 @@ git config --global user.email "you@example.com"
 ```
 ### Clone this repository
 ```bash
-git config --global user.name "Your Name"
+git clone https://github.com/pgustafs/basic-poll.git
 ```
+#### Basic Git Commands
