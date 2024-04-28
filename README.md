@@ -17,6 +17,10 @@ Activate the virtual environment
 ```bash
 source ~/.basic_poll_venv/bin/activate
 ```
+Update pip in the virtual environment
+```bash
+python3 -m pip install --upgrade pip
+```
 Exit a virtual environment 
 ```bash
 deactivate
@@ -33,4 +37,17 @@ git config --global user.email "you@example.com"
 ```bash
 git clone https://github.com/pgustafs/basic-poll.git
 ```
-#### Basic Git Commands
+### Installing Django
+Make sure that your python virtual environment is active, install Django using pip:
+```bash
+python3 -m pip install Django
+```
+or
+```bash
+python3 -m pip install -r basic-poll/requirements.txt
+```
+### Checking Django Version
+Verify that Django is installed correctly and check its version:
+```bash
+django-admin --version
+```
