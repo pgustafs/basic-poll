@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi9/ubi-minimal
+FROM registry.access.redhat.com/ubi9/ubi-minimal
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
