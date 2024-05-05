@@ -57,5 +57,9 @@ Let’s verify your Django project works. Change into the *basic-poll* directory
 cd basic-poll
 ```
 ```bash
-python3 manage.py runserver
+python3 manage.py runserver 0.0.0.0:8000 
+```
+or using gunicorn
+```bash
+gunicorn base.wsgi:application --bind 0.0.0.0:8000
 ```
