@@ -23,4 +23,5 @@ coverage.xml
 *.md
 .gitignore
 Dockerfile
+docker-build
 
