@@ -19,3 +19,5 @@ RUN pip3 install --upgrade pip \
 
 # This is primarily a reminder that we need access to port 8000
 EXPOSE 8000
+
+CMD ["gunicorn", "base.wsgi:application", "--bind", "0.0.0.0:8000"]
