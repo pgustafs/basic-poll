@@ -1,4 +1,6 @@
 FROM registry.access.redhat.com/ubi9/ubi-minimal
+LABEL io.openshift.tags django,basic-poll
+LABEL io.k8s.description Django Basic Poll application
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
