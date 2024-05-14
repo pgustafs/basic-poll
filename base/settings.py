@@ -28,7 +28,7 @@ DEBUG = True
 #ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS", default='127.0.0.1').split(" ")
 # Note! add more strict rules like for example [".apps.ocp.pgustafs.com"]
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ["https://*"]
+CSRF_TRUSTED_ORIGINS = ["https://*.apps.ocp.pgustafs.com"]
 
 # Application definition
 
