@@ -1,3 +1,4 @@
 Django==4.2.11
 tzdata
 gunicorn
+psycopg2-binary
